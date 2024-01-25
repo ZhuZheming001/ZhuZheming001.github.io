@@ -1,14 +1,12 @@
-title: wu-kan # 站点标题
+title: Zheming # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   SYSU第7年<br/>
   水野爱<br/>
   田宫例四驱车<br/>
-  <a href="mailto:i@wu-kan.cn">
+  <a href="zhuzheming08@gmail.com">target="_blank"
     <i class="fa-solid fa-envelope"></i>
   </a>
-  <a href="https://github.com/wu-kan">
-    <i class="fa-brands fa-github"></i>
-  </a>
+  
   <a href="https://vjudge.net/user/WuK">
     <i class="fa-solid fa-smile"></i>
   </a>
@@ -29,7 +27,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         comments: # 留言页，请先修改这里，确保使用的是你自己的repo！参照<https://utteranc.es/>
           append: |
             <script
-              repo="wu-kan/utterances-storage"
+              repo="zhuzheming001/utterances-storage"
               src="https://utteranc.es/client.js"
               issue-term="url"
               theme="github-light"
@@ -241,17 +239,10 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     async='async'
                   ></script>
                 </div>
-              - | # 觉得我的主题好用的话，让更多的人知道它吧！
-                <div>
-                  <i class="fa-solid fa-thumbs-up fa-fw"></i>
-                  <a href="https://jekyll-theme-WuK.wu-kan.cn">
-                    jekyll-theme-WuK
-                  </a>
-                </div>
               - | # Copyright声明
                 <div>
                   <i class="fa-solid fa-copyright fa-fw"></i>
-                  2017-2022 WuK
+                   by Zheming 2024
                 </div>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
@@ -266,7 +257,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 自定义主题色（水野爱蓝），可对应 <https://www.runoob.com/cssref/css-colornames.html> 挑选
               <style>
                 .theme-base-07 {
-                  --theme-base-color: DarkSlateBlue;
+                  --theme-base-color:FloralWhite ;
                 }
               </style>
             - | # 一些页面优化标签，看不懂可跳过
@@ -287,7 +278,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
-                href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320"
+                href="zhuzheming.jpeg"
               />
               <link
                 rel="shortcut
@@ -645,13 +636,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           append_to_head:
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
               <script>
-                var myname = "WuK";
-                var profile = "i@wu-kan.cn";
+                var myname = "ZhemingZhu";
+                var profile = "zhuzheming08@gmail.com";
                 var usage = "payment";
-                var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
-                var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ77zFwQMY-6u57gU%3D_xxx_sign&u=942759535&n=%E8%94%9A";
-                var alipay = "https://qr.alipay.com/fkx02750b5kbplxvudqrx16";
-                var paypal = "https://paypal.me/wukan0621";
+                var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";               
+                var alipay = "https://mobilecodec.alipay.com/show.htm?code=a6x19831ubtgxnjlumzis15&picSize=L";
+                var paypal = "paypal.me/zhuzheming08";
                 var multilingual = false;
                 var branding = false;
                 var title = "选择你的支付方式";
